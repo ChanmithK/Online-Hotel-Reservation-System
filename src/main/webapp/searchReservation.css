@@ -1,0 +1,197 @@
+html, body {
+	display: block;
+	justify-content: center;
+    margin: 0px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+  }
+    
+   /* Reservation Table CSS */  
+table, th, td {
+    border: 1px solid black;
+    margin-top: -132px;
+    margin-left: 1%;
+    border: 0px;
+    border-collapse: collapse;
+    border: ridge;
+    border-color: black;
+    border-inline: none;
+  }
+  
+th, td {
+	padding-left: 50px;
+    padding-bottom: 10px;
+  }
+  
+th {
+    font-size: 20px;
+    padding-left: 33px;
+    padding-right: 26px;
+    background-color: #1f2020;
+    color: white;
+    padding-bottom: 16px;
+    padding-top: 16px;
+  }
+  
+tr{
+    font-weight: bold;
+  }
+  
+  /* Update and Delete buttons CSS  */
+.button {
+    background-color: #FF441C;
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.6s;
+    margin-right: 13px;
+    margin-left: -38px;
+    margin-top: 9px;
+    font-family: inherit;
+    font-weight: bold;
+   }
+   
+.button:hover {
+	background-color: #22c1e0;
+    color: black;
+   }
+  
+  /* New Reservation Button CSS */ 
+.button1 {
+    background-color: #FF441C;
+    border: none;
+    color: black;
+    padding: 15px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 21px;
+    transition-duration: 0.6s;
+    margin-right: 13px;
+    margin-left: 55px;
+    margin-top: 31px;
+    font-family: inherit;
+    font-weight: bold;
+   }
+   
+.button1:hover {
+    background-color: #22c1e0;
+    color: black;
+   }
+   
+   /* Log Out Button CSS */ 
+   .button11 {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    border-radius: 21px;
+    transition-duration: 0.6s;
+    margin-right: 23px;
+    margin-left: 1748px;
+    margin-top: 52px;
+    font-family: inherit;
+    font-weight: bold;
+}
+   
+.button11:hover {
+    background-color: #22c1e0;
+    color: black;
+   }
+   
+   /* Transparent Box */		  		
+div.transbox {
+    align-items: center;
+    margin-left: -7px;
+    margin-right: -771px;
+    margin-top: 112px;
+    padding-top: 182px;
+    padding-bottom: 37px;
+    width: auto;
+    border-radius: 57px;
+    height: auto;
+    background-color: rgb(255 255 255 / 79%);
+   }
+    
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+   }  
+      
+body{
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+   }
+
+ /* Search Bar CSS */
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #000000;
+  margin: 0px -38px 455px -454px;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+/* Search button CSS */
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+ }
+ 
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+.image{
+	margin: 4px 3px 0px 4px;
+ }
+
+ /* Background Wrap CSS */
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 760px;
+    background: #00af8770;
+ }

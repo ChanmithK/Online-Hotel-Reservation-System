@@ -1,0 +1,205 @@
+.container {
+    padding: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black; 
+  }
+  
+  /* Input Field CSS */
+input[type=text],input[type=email],input[type=date] {
+    width: 60%;
+    font-size: small;
+    font-family: inherit;
+    color: black;
+    padding: 12px 20px;
+    margin: 8px 224px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 1px solid #fa0a01;
+  }
+  
+input[type=email]{
+    width: 75%;
+    font-size: small;
+    font-family: inherit;
+    color: black;
+    padding: 12px 20px;
+    margin: 8px 224px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 1px solid #fa0a01;
+  }
+  
+input[type=radio] {
+    width: 60%;
+    color: darkgray;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+
+.container label{
+     text-align: right;
+     padding-right: 632px;
+  }
+ .labelnew{
+     text-align: right;
+     padding-right: 161px;
+ }
+ 
+.labelnew1{
+     text-align: right;
+     padding-right: 239px;
+ }
+ 
+.labelnew2{
+     text-align: right;
+     padding-right: 201px;
+ }
+ 
+.labelnew3{
+     text-align: right;
+     padding-right: 216px;
+ }
+ 
+.labelnew4{
+     text-align: right;
+     padding-right: 190px;
+ }
+ 
+.labelnew5{
+     text-align: right;
+     padding-right: 183px;
+ }
+ 
+.labelnew6{
+     text-align: right;
+     padding-right: 158px;
+ }
+ 
+.labelnew8{
+     text-align: right;
+     padding-right: 223px;
+     margin-bottom: -18px;
+ }
+ 
+ /* Insert Reservation Button CSS */
+button {
+	 background-color: #fa0a01;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: white;
+     padding: 14px 20px;
+     margin: 28px 225px;
+     border: none;
+	 cursor: pointer;
+     width: 20%;
+     height: 56px;
+     border-radius: 21px;
+     font-size: 17px;
+ }
+
+button:hover {
+    opacity: 0.8;
+    color: black;
+    background-color: #16abeb;
+  }
+  
+.word8{
+    padding-right: 78px;
+ } 
+ 
+ /* Transparent Box CSS */
+.transbox {
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 150px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: auto;
+    height: auto;
+    background: rgb(255 255 255 / 63%);
+    opacity: 5px;
+    border-radius: 108px;
+  }
+  
+.word10{
+    margin-top: -85px;
+    margin-bottom: 40px;
+    font-size: 43px;
+    color: black;
+    padding-left: 372px;
+  }
+  
+.container1 {
+    display: flex;
+    position: relative;
+    padding-top: 8px;
+    padding-left: 261px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+
+/* Hide the browser's default radio button */
+.container1 input {
+   position: absolute;
+   opacity: 0;
+   cursor: pointer;
+  }
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+    top: 7px;
+    left: 238px;
+    height: 15px;
+    width: 15px;
+    background-color: #6f7d7a;
+    border-radius: 50%;
+  }
+ 
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: red;
+  }
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  }
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+  } 
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 4px;
+  left: 4px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: white;
+  }
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1156px;
+    background: #0000004d;
+}
